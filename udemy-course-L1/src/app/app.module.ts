@@ -8,7 +8,8 @@ import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
-import {MatFormFieldControl, MatFormFieldModule} from '@angular/material/form-field';  
+import {MatFormFieldControl, MatFormFieldModule} from '@angular/material/form-field';
+import { DetailDisplayComponent } from './detail-display/detail-display.component';  
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import {MatFormFieldControl, MatFormFieldModule} from '@angular/material/form-fi
     ServerComponent,
     ServersComponent,
     WarningAlertComponent,
-    SuccessAlertComponent
+    SuccessAlertComponent,
+    DetailDisplayComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,5 @@
+<button class="btn btn-primary" (click)="flipShow(); buttonIncrement();">Display Details</button>
+<hr>
+@if (showParagraph) {
+    <p [ngStyle]="{backgroundColor: getColor()}" [ngClass]="{colorwhite:getButtonCount() >= 5}">The button count is now: {{ getButtonCount() }}</p>
+}
